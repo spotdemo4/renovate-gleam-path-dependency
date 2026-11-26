@@ -1,0 +1,6 @@
+name = "app"
+version = "1.0.0"
+
+[dependencies]
+gleam_stdlib = ">= 0.40.0 and < 1.0.0"
+local_dep = { path = "./local_dep" }
